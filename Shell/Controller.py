@@ -1,5 +1,6 @@
 from Shell.Help import Help
 from Shell.Exit import Exit
+from Shell.Tools import Tools
 
 def Controller(Command: str, Argument: str):
     match Command:
@@ -7,3 +8,5 @@ def Controller(Command: str, Argument: str):
             Exit()
         case "help":
             Help()
+        case "tools":
+            Tools()
