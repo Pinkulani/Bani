@@ -1,4 +1,4 @@
-from LetterToNumber import LetterToNumber
+from String.LetterToNumber import LetterToNumber
 
 def Alphabet():
     Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
