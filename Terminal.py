@@ -8,6 +8,6 @@ class Drzewo:
     def Loop(self):
         while True:
             Input = str(input("> "))
-            Console(Input)
+            Sanitized = Console(Input)
 
 Drzewo()
